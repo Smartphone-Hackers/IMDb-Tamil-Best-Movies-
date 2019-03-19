@@ -39,7 +39,7 @@ def all_movie_with_rating():
 	for i in movies_name_rate:
 		space = movies_name_rate[str(i)].replace(' ','')
 		if space.isalpha():
-				pass
+			pass
 		else:
 			print(i,' '*(max(size)-len(i)),':',' '*10,movies_name_rate[i])
 
